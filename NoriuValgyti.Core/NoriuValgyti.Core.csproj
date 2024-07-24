@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="12.0.1" />
+      <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
+      <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
+      <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.25.1" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NoriuValgyti.Domain\NoriuValgyti.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
